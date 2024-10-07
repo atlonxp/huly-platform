@@ -15,7 +15,7 @@ import core, {
 } from '@hcengineering/core'
 import { ModelLogger } from '@hcengineering/model'
 import { makeRank } from '@hcengineering/rank'
-import { AggregatorStorageAdapter } from '@hcengineering/server-core'
+import { AggregatorStorageAdapter } from '@hcengineering/server-storage'
 import { jsonToYDocNoSchema, parseMessageMarkdown } from '@hcengineering/text'
 import { v4 as uuid } from 'uuid'
 

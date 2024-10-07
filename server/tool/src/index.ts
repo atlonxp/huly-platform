@@ -40,13 +40,8 @@ import core, {
   type TxCUD
 } from '@hcengineering/core'
 import { consoleModelLogger, MigrateOperation, ModelLogger, tryMigrate } from '@hcengineering/model'
-import {
-  AggregatorStorageAdapter,
-  DomainIndexHelperImpl,
-  Pipeline,
-  StorageAdapter,
-  type DbAdapter
-} from '@hcengineering/server-core'
+import { DomainIndexHelperImpl, Pipeline, StorageAdapter, type DbAdapter } from '@hcengineering/server-core'
+import { AggregatorStorageAdapter } from '@hcengineering/server-storage'
 import { connect } from './connect'
 import { InitScript, WorkspaceInitializer } from './initializer'
 import toolPlugin from './plugin'
