@@ -163,10 +163,6 @@ export function devTool (
     return elasticUrl
   }
 
-  const initWS = process.env.INIT_WORKSPACE
-  if (initWS !== undefined) {
-    setMetadata(toolPlugin.metadata.InitWorkspace, initWS)
-  }
   const initScriptUrl = process.env.INIT_SCRIPT_URL
   if (initScriptUrl !== undefined) {
     setMetadata(toolPlugin.metadata.InitScriptURL, initScriptUrl)
